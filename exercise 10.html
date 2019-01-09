@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Graded Classwork</title>
+</head>
+<body>
+
+<script>
+
+    var card1 = prompt("Enter your first card!");
+    var card2 = prompt("Enter your second card!");
+    var card3 = prompt("Enter your third card!");
+    card1 = parseInt(card1);
+    card2 = parseInt(card2);
+    card3 = parseInt(card3);
+    var sum = (card1 + card2 + card3);
+
+    if (sum == 21)
+    {
+        console.log("BLACKJACK")
+    }
+    else if (sum < 21)
+    {
+        console.log("The total is " + sum)
+    }
+    else if (sum > 21)
+    {
+        console.log("BUST")
+    }
+
+</script>
+
+</body>
+</html>
